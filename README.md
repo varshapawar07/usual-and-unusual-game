@@ -1,37 +1,36 @@
 game_project/
-├── assets/                            # Contains all media assets for the game
+├── assets/                           
 │   ├── images/
-│   │   ├── characters/                # Character images and sprites
-│   │   │   ├── boy/                   # Outfit options for the boy character
-│   │   │   └── girl/                  # Outfit options for the girl character
-│   │   ├── environments/              # Backgrounds for different game settings (Fun Fair, School, etc.)
-│   │   └── ui/                        # UI elements like buttons, icons, etc.
+│   │   ├── characters/               
+│   │   │   ├── boy/                  
+│   │   │   └── girl/                  
+│   │   ├── environments/             
+│   │   └── ui/                       
 │   ├── sounds/
-│   │   ├── voice_guidance/            # Audio files providing voice guidance to players
-│   │   └── sfx/                       # Sound effects (e.g., button clicks, level completion sounds)
-│   └── fonts/                         # Custom fonts for game text
+│   │   ├── voice_guidance/            
+│   │   └── sfx/                      
+│   └── fonts/                        
 │
-├── src/                               # Contains the main codebase for the game
+├── src/                               
 │   ├── characters/
-│   │   ├── character_selection.py     # Code for the character selection screen
-│   │   └── character_customization.py # Code for character customization (dressing up characters)
+│   │   ├── character_selection.py    
+│   │   └── character_customization.py 
 │   ├── levels/
-│   │   ├── level1.py                  # Code for Level 1 of each setting (e.g., Fun Fair, School)
-│   │   ├── level2.py                  # Code for Level 2, etc.
-│   │   └── ...                        # Additional levels for each setting
-│   ├── main_menu.py                   # Code for the main options menu, where players choose game settings
-│   ├── gameplay.py                    # Core gameplay logic, including safety scenarios
-│   ├── rewards.py                     # Manages player rewards and progression between levels
-│   └── save_load.py                   # Handles saving and loading player progress
+│   │   ├── level1.py                  
+│   │   ├── level2.py                
+│   │   └── ...                        
+│   ├── main_menu.py                 
+│   ├── gameplay.py                   
+│   ├── rewards.py                    
+│   └── save_load.py                
 │
-├── config/                            # Configuration files for game settings and constants
-│   ├── settings.py                    # General game settings and configurations
-│   └── constants.py                   # Constants used throughout the game, such as file paths and level names
+├── config/                           
+│   ├── settings.py                    
+│   └── constants.py                  
 │
-├── game.py                            # Main file to initialize and launch the game
-├── README.md                          # Documentation for the game project
-└── requirements.txt                   # List of Python dependencies for easy setup
-
+├── game.py                            
+├── README.md                         
+└── requirements.txt                   
 
 # Child Safety Game Project
 
